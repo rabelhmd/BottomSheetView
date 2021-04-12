@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        BottomSheetView(isOpen: .constant(false), maxHeight: 300) {
+        BottomSheetView(isOpen: .constant(false), maxHeight: 600) {
             Rectangle().fill(Color.green)
         }
         .edgesIgnoringSafeArea(.all)
